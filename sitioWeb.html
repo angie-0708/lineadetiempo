@@ -1,0 +1,2583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url();
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        section {
+            background: linear-gradient(rgb(191, 192, 194), #0d0d0e);
+        }
+
+        div.header {
+            background-color: #707070;
+
+        }
+
+        div.center {
+            background: url(images/522e038be328f8bfb1db75e270f8143d.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            transition: width 0.3s;
+        }
+
+        div.sidebar {
+            background-color: rgba(128, 126, 125, 0.226);
+            width: 20%;
+            transition: width 0.3s;
+            justify-content: center;
+            align-items: center;
+            flex: content;
+        }
+
+        div.footer {
+            background-color: #222121;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        select {
+            width: 70px;
+
+            border-radius: 5px;
+            border-top: 2px solid white;
+        }
+
+        div.img {
+            margin-top: -50px;
+            margin-left: 87%;
+        }
+
+        p.parrafo {
+            margin-top: -50px;
+        }
+
+        .centrarDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4px;
+        }
+
+        .apple {
+            background-color: rgba(230, 213, 213, 0.514);
+            width: 80%;
+            height: 70%;
+            border-radius: 10px;
+            margin-top: 4px;
+            width: 100%;
+            max-width: 600px;
+            /* Ajusta el ancho máximo si es necesario */
+            padding: 16px;
+            /* Espaciado interno para evitar que el contenido toque los bordes */
+            box-sizing: border-box;
+            /* Incluye padding en el ancho total del contenedor */
+            overflow: hidden;
+            /* Evita el desbordamiento visible */
+        }
+
+        .custom-bullets {
+            list-style-type: disc;
+            /* Estilo de viñetas de tipo círculo */
+            padding-left: 20px;
+            /* Espacio a la izquierda */
+            margin-left: 0;
+            /* Elimina cualquier margen izquierdo predeterminado */
+        }
+
+        .custom-bullets li {
+            margin-left: 20px;
+        }
+
+        h3 {
+            font-weight: bold !important;
+        }
+
+        .windows {
+            background-color: rgba(230, 213, 213, 0.514);
+            width: 80%;
+            height: 70%;
+            border-radius: 10px;
+            margin-top: 4px;
+            width: 100%;
+            max-width: 600px;
+            /* Ajusta el ancho máximo si es necesario */
+            padding: 16px;
+            /* Espaciado interno para evitar que el contenido toque los bordes */
+            box-sizing: border-box;
+            /* Incluye padding en el ancho total del contenedor */
+            overflow: hidden;
+            /* Evita el desbordamiento visible */
+        }
+        .server {
+            background-color: rgba(230, 213, 213, 0.514);
+            width: 80%;
+            height: 70%;
+            border-radius: 10px;
+            margin-top: 4px;
+            width: 100%;
+            max-width: 600px;
+            /* Ajusta el ancho máximo si es necesario */
+            padding: 16px;
+            /* Espaciado interno para evitar que el contenido toque los bordes */
+            box-sizing: border-box;
+            /* Incluye padding en el ancho total del contenedor */
+            overflow: hidden;
+            /* Evita el desbordamiento visible */ 
+        }
+        .dos{
+            background-color: rgba(230, 213, 213, 0.514);
+            width: 80%;
+            height: 70%;
+            border-radius: 10px;
+            margin-top: 4px;
+            width: 100%;
+            max-width: 600px;
+            /* Ajusta el ancho máximo si es necesario */
+            padding: 16px;
+            /* Espaciado interno para evitar que el contenido toque los bordes */
+            box-sizing: border-box;
+            /* Incluye padding en el ancho total del contenedor */
+            overflow: hidden;
+            /* Evita el desbordamiento visible */ 
+        }
+    </style>
+    <title>Sistemas Operativos</title>
+</head>
+
+<body class="body bg-[]">
+
+    <div class="header w-[100%] h-[70px] pl-8">
+        <div class="menub w-[50px] h-[50px] position-relative bottom-8 left-[95%] mr-[50%]">
+            <button id="menu-button" class="w-[50px] h-[70px]">
+                <img src="images/download-removebg-preview.png">
+            </button>
+        </div>
+        <div class="img w-[210px] h-[70px] ">
+            <img src="images/cbc7b8e7-de58-4727-9ba2-6e5621070cd5-removebg 1 (1).png" class="[80px] h-[70px]  ml-[]">
+        </div>
+
+        <div>
+            <p class="parrafo font-bold h-[70px] ml-[90%] ">Angie Rios</p>
+        </div>
+
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="flex">
+        <div id="sidebar" class="sidebar h-[80%px] rounded-[10px] m-4 mr-22">
+            <div class="centrarDiv">
+                <h1 class="text-white text-[26px]">Sistemas Operativos</h1>
+            </div>
+
+            <div class="textCont pl-2 pt-2">
+                <h3 class="text-[#333] text-[22px] font-bold text-center">APPLE</h3>
+                <h5 class="text-[#333] text-[10px] text-center">clic en el boton de abajo para ver los sistemas
+                    Operativos</h5>
+            </div>
+
+            <div class="centrarDiv" id="apple">
+                <select name="apple" id="one" class="bg-[#9f9fe0] min-w-[100px] text-center">
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="Rhapsody">RHAPSODY DEVELOPER RELEASE</option>
+                    <option value="server1">MAC OS X SERVER 1.0.</option>
+                    <option value="Preview">MAC OS X DEVELOPER PREVIEW</option>
+                    <option value="public">MAC OS X PUBLIC BETA.</option>
+                    <option value="mac os x 10.0">MAC OS X 10.0.</option>
+                    <option value="mac os x 10.1">MAC OS X 10.1.</option>
+                    <option value="mac os x 10.2">MAC OS X 10.2.</option>
+                    <option value="mac os x 10.3">MAC OS X 10.3.</option>
+                    <option value="mac os x 10.4">MAC OS X 10.4.</option>
+                    <option value="mac os x 10.5">MAC OS X 10.5.</option>
+                    <option value="mac os x 10.6">MAC OS X 10.6.</option>
+                    <option value="mac os x 10.7">MAC OS X 10.7.</option>
+                    <option value="mac os x 10.8">MAC OS X 10.8.</option>
+                    <option value="mac os x 10.9">MAC OS X 10.9.</option>
+                    <option value="mac os x 10.10">MAC OS X 10.10.</option>
+                    <option value="mac os x 10.11">MAC OS X 10.11.</option>
+                    <option value="mac os x 10.12">MAC OS 10.12.</option>
+                    <option value="mac os x 10.13">MAC OS X 10.13.</option>
+                    <option value="mac os x 10.14">MAC OS X 10.14.</option>
+                    <option value="mac os x 10.15">MAC OS X 10.15.</option>
+                    <option value="macos 11">MACOS 11. </option>
+                    <option value="macos 12">MACOS 12.</option>
+                    <option value="macos 13">MACOS 13.</option>
+                    <option value="macos 14">MACOS 14.</option>
+                    <option value="macos 15">MACOS 15.</option>
+                </select>
+            </div>
+
+            <div class="textCont pl-2 pt-2">
+                <h3 class="text-[#333] text-[22px] font-bold text-center">WINDOWS</h3>
+                <h5 class="text-[#333] text-[10px] text-center">clic en el botón de abajo para ver los sistemas Operativos</h5>
+            </div>
+
+            <div class="centrarDiv" id="windows">
+                <select name="windows" id="two" class="bg-[#9f9fe0] min-w-[100px] text-center">
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="windows1">WINDOWS 1.0</option>
+                    <option value="windows2">WINDOWS 2.0</option>
+                    <option value="windows3">WINDOWS 3.0</option>
+                    <option value="windows4">WINDOWS 3.1</option>
+                    <option value="windows5">WINDOWS 95</option>
+                    <option value="windows6">WINDOWS 98</option>
+                    <option value="windows7">WINDOWS ME</option>
+                    <option value="windows8">WINDOWS 2000</option>
+                    <option value="windows9">WINDOWS XP</option>
+                    <option value="windows10">WINDOWS VISTA</option>
+                    <option value="windows11">WINDOWS 7.0</option>
+                    <option value="windows12">WINDOWS 8.0</option>
+                    <option value="windows13">WINDOWS 8.1</option>
+                    <option value="windows14">WINDOWS 10.0</option>
+                    <option value="windows15">WINDOWS 11</option>
+                </select>
+            </div>
+
+            <div class="textCont pl-2 pt-2">
+                <h3 class="text-[#333] text-[22px] font-bold text-center">WINDOWS SERVER</h3>
+                <h5 class="text-[#333] text-[10px] text-center">clic en el boton de abajo para ver los sistemas
+                    Operativos</h5>
+            </div>
+
+            <div class="centrarDiv" id="server">
+                <select name="server" id="three" class="bg-[#9f9fe0] min-w-[100px] text-center">
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="WindowsServer1">Windows NT Server 3.1</option>
+                    <option value="WindowsServer2">Windows NT Server 3.5</option>
+                    <option value="WindowsServer3">Windows NT Server 3.51</option>
+                    <option value="WindowsServer4">Windows NT Server 4.0</option>
+                    <option value="WindowsServer5">Windows 2000 Server</option>
+                    <option value="WindowsServer6">Windows 2003 Server</option>
+                    <option value="WindowsServer7">Windows 2003 Server R2</option>
+                    <option value="WindowsServer8">Windows Server 2008</option>
+                    <option value="WindowsServer9">Windows Server 2008 R2</option>
+                    <option value="WindowsServer10">Windows Server 2012</option>
+                    <option value="WindowsServer11">Windows Server 2012 R2</option>
+                    <option value="WindowsServer12">Windows Server 2016</option>
+                    <option value="WindowsServer13">Windows Server 2019</option>
+                    <option value="WindowsServer14">Windows Server 2022</option>
+                </select>
+            </div>
+            <div class="textCont pl-2 pt-2">
+                <h3 class="text-[#333] text-[22px] font-bold text-center">D.O.S</h3>
+                <h5 class="text-[#333] text-[10px] text-center">clic en el boton de abajo para ver los sistemas
+                    Operativos</h5>
+            </div>
+            <div class="centrarDiv" id="dos">
+                <select name="apple" id="four" class="bg-[#9f9fe0]  min-w-[100px] text-center">
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="D.O.S1">MS-DOS 1.O.</option>
+                    <option value="D.O.S2">MS-DOS 2.O.</option>
+                    <option value="D.O.S3">MS-DOS 3.O.</option>
+                    <option value="D.O.S4">MS-DOS 3.1.</option>
+                    <option value="D.O.S5">MS-DOS 3.2.</option>
+                    <option value="D.O.S6">MS-DOS 3.3.</option>
+                    <option value="D.O.S7">MS-DOS 4.O.</option>
+                    <option value="D.O.S8">MS-DOS 5.O.</option>
+                    <option value="D.O.S9">MS-DOS 6.O.</option>
+                    <option value="D.O.S10">MS-DOS 6.2O</option>
+                    <option value="D.O.S11">MS-DOS 7.O.</option>
+                    <option value="D.O.S12"> MS-DOS 8.O.</option>
+                    <option value="D.O.S13">MS-DOS MOBILE</option>
+                </select>
+            </div>
+        </div>
+        <div class="center h-[1224px] m-4 rounded-[10px]">
+            <div class="apple hidden" id="Rhapsody">
+                <h3 class=" mx-auto w-max">RHAPSODY DEVELOPER RELEASE</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Rhapsody Developer Release 1997</li>
+                    <li>VERSION KERNEL:NeXTSTEP y BSD.</li>
+                    <li>AÑO LANZAMIENTO:1997.</li>
+                    <li> PROCESADOR:PowerPC (G3, G4).</li>
+                    <li> VELOCIDAD:233 MHz a 300 MHz.</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:768 MB.</li>
+                    <li> FRECUENCIA (VELOCIDAD):66 MHz - 100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte mejorado para gráficos a través de tarjetas gráficas avanzadas de la época</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Integración de tecnologías avanzadas de BSD para mejorar la estabilidad y el rendimiento del
+                        sistema operativo</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M1.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="server1">
+                <h3 class=" mx-auto w-max">MAC OS X SERVER 1.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X Server 1.0</li>
+                    <li>VERSION KERNEL:XNU (combinación de Mach 2.5 y elementos de BSD)</li>
+                    <li>AÑO LANZAMIENTO:1999.</li>
+                    <li> PROCESADOR:PowerPC G3.</li>
+                    <li> VELOCIDAD:233 MHz - 300 MHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS: Hasta 2 hilos por procesador, dependiendo del modelo..</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:768 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):66 MHz - 100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Compatibilidad con dispositivos de almacenamiento SCSI y ATA</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Herramientas de administración de servidores, incluyendo NetInfo para la administración de
+                        directorio</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M2.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="Preview">
+                <h3 class=" mx-auto w-max">Mac OS X Developer Preview</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X Developer Preview</li>
+                    <li>VERSION KERNEL:XNU (combinación de Mach 2.5 y elementos de BSD)</li>
+                    <li>AÑO LANZAMIENTO:1999-2000.</li>
+                    <li> PROCESADOR:PowerPC (G3, G4).</li>
+                    <li> VELOCIDAD:233 MHz y 500 MHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Compatibilidad con arquitecturas PowerPC G3 y G4</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> Nuevo Finder con una interfaz más moderna y funcionalidad mejorada </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M3.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="public">
+                <h3 class=" mx-auto w-max">MAC OS X PUBLIC BETA</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X Public Beta</li>
+                    <li>VERSION KERNEL:XNU (combinación de Mach 3.0 y elementos de BSD)</li>
+                    <li>AÑO LANZAMIENTO:2000</li>
+                    <li> PROCESADOR:PowerPC (G3, G4)</li>
+                    <li> VELOCIDAD:233 MHz y 500 MHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Compatibilidad con arquitecturas PowerPC G3 y G4</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> Nuevo Finder con una interfaz más moderna y funcionalidad mejorada </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M4.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.0">
+                <h3 class=" mx-auto w-max">MAC OS X 10.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X 10.0</li>
+                    <li>VERSION KERNEL:XNU (combinación de Mach 3.0 y elementos de BSD)</li>
+                    <li>AÑO LANZAMIENTO:2001</li>
+                    <li> PROCESADOR:PowerPC (G3, G4)</li>
+                    <li> VELOCIDAD:233 MHz - 500 MHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:1.5 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Compatibilidad con las arquitecturas PowerPC G3 y G4</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>interfaz gráfica de usuario con elementos visuales modernos y efectos de transparencia</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M5.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.1">
+                <h3 class=" mx-auto w-max">MAC OS X 10.1</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X 10.1</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2001.</li>
+                    <li> PROCESADOR:PowerPC G3 y G4.</li>
+                    <li> VELOCIDAD:233 MHz - 733 MHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el rendimiento gráfico</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejor soporte para impresoras y dispositivos externos</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m6.jpeg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.2">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.2</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):Mac OS X 10.2</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2002.</li>
+                    <li> PROCESADOR:PowerPC G3 y G4.</li>
+                    <li> VELOCIDAD:233 MHz - 1 GHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:SDRAM.</li>
+                    <li> CAPACIDAD:2 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Mejoras en la aceleración gráfica</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Introducción de Quartz Extreme y Nuevo Mail, Address Book, y iCha</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m6.jpeg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.3">
+
+
+                <h3 class=" mx-auto w-max"> MAC OS X 10.3</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.3</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2003.</li>
+                    <li> PROCESADOR:PowerPC G3,G4 Y G5.</li>
+                    <li> VELOCIDAD: 233 MHz - 2 GHz</li>
+                    <li>ARQUITECTURA:PowerPC.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR SDRAM.</li>
+                    <li> CAPACIDAD:8 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):333 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte para PowerPC G5</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> Introducción de Exposé, Mejoras en el Finder, Implementa nuevo Safari</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M7.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.4">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.4</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.4</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2005.</li>
+                    <li> PROCESADOR:PowerPC G3, G4, G5, y más tarde Intel.</li>
+                    <li> VELOCIDAD: 300 MHz - 2.7 GHz</li>
+                    <li>ARQUITECTURA:PowerPC e Intel x86.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte inicial para procesadores Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> * Spotlight
+                        * Dashboard
+                        * Mejoras en el Mail</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M8.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.4">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.4</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.4</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2005.</li>
+                    <li> PROCESADOR:PowerPC G3, G4, G5, y más tarde Intel.</li>
+                    <li> VELOCIDAD: 300 MHz - 2.7 GHz</li>
+                    <li>ARQUITECTURA:PowerPC e Intel x86.</li>
+                    <li> NUMERO DE HILOS:Hasta 2 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte inicial para procesadores Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> * Spotlight
+                        * Dashboard
+                        * Mejoras en el Mail</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M8.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.5">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.5</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.5</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2007.</li>
+                    <li> PROCESADOR:PowerPC G3, G4, G5, y más tarde Intel.</li>
+                    <li> VELOCIDAD: 867 MHz - 3 GHz</li>
+                    <li>ARQUITECTURA:PowerPC e Intel x86.</li>
+                    <li> NUMERO DE HILOS:Hasta 4 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR2 SDRAM.</li>
+                    <li> CAPACIDAD:32 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):667 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en la compatibilidad con hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Spaces
+                        * Mail mejorado
+                        * Time Machine</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M9.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.6">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.6</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.6</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2009.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.5 GHz - 3.33 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 4 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1066 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejora de rendimiento y estabilidad</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M10.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.7">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.7</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.7</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2011.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.83 GHz - 3.4 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1333 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Launchpad
+                        * Mission Control
+                        * Auto Save y Versions"</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M11.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.8">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.8</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.8</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2012.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.83 GHz - 3.6 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1600 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Integración con iCloud
+                        * Mensajes (Messages)
+                        * Notificaciones"</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M12.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.9">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.9</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.9</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2013.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 3.6 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1600 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* iBooks y Maps para Mac
+                        * Mejor gestión de energía
+                        * Finder con pestañas y etiquetas"</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M13.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.10">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.10</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.6</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2014.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 4.0 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS: Hasta 8 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1600 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Interfaz rediseñada
+                        * Handoff y AirDrop mejorado</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M14.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.11">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.11</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.11</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2009.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.5 GHz - 3.33 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 4 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1066 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>"* Split View
+                        * Mejoras en Mission Control
+                        * Metal para Mac"
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M15.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.12">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.12</h3>
+
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.12</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2016.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 4.2 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):1600 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Siri para Mac
+                        * Universal Clipboard
+                        * Apple Pay en la web</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M16.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.13">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.13</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.13</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2017.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 4.2 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:32 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Sistema de archivos APFS
+                        * Mejoras en gráficos con Metal 2
+                        * Actualizaciones en Safari, Mail y Fotos</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M17.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.14">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.14</h3>
+
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.14</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2018.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 4.2 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:32 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Modo oscuro
+                        * Escritorios dinámicos
+                        * Pilas en el escritorio</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M18.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="mac os x 10.15">
+                <h3 class=" mx-auto w-max"> MAC OS X 10.15</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): Mac OS X 10.15</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2019.</li>
+                    <li> PROCESADOR:Intel</li>
+                    <li> VELOCIDAD: 1.6 GHz - 4.2 GHz</li>
+                    <li>ARQUITECTURA:Intel x86-64.</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador, dependiendo del modelo.</li>
+                    <li> TIPO:DDR3 SDRAM.</li>
+                    <li> CAPACIDAD:32 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte para hardware Intel</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Fin de soporte para aplicaciones de 32 bits
+                        * Nuevas aplicaciones: Música, Podcasts, Apple TV</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/M19.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="macos 11">
+                <h3 class=" mx-auto w-max"> MACOS 11</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): MacOS11</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2020.</li>
+                    <li> PROCESADOR:Intel y Apple Silicon (M1)</li>
+                    <li> VELOCIDAD: 1.6 GHz y 3.8 GHz (Intel) y 2.4 GHz (Apple M1)</li>
+                    <li>ARQUITECTURA:Intel x86-64 y ARM64 (Apple Silicon)</li>
+                    <li> NUMERO DE HILOS:Apple Silicon (M1): Hasta 8 hilos por procesador.</li>
+                    <li> TIPO:DDR4 SDRAM.</li>
+                    <li> CAPACIDAD:Hasta 64 GB (Intel) y 16 GB (Apple Silicon) </li>
+                    <li> FRECUENCIA (VELOCIDAD):2666 MHz (Intel) y 4266 MHz (Apple Silicon)</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>* Introducción de los primeros Mac con Apple Silicon (M1)</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li> Geneta una mayor compatibilidad con aplicaciones de iOS y iPadOS</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m20.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="macos 12">
+                <h3 class=" mx-auto w-max"> MACOS 12</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):MACOS 12</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2021.</li>
+                    <li> PROCESADOR:Intel y Apple Silicon (M1, M1 Pro, M1 Max)</li>
+                    <li> VELOCIDAD: Varía según el modelo</li>
+                    <li>ARQUITECTURA:Intel x86-64 y ARM64 (Apple Silicon).</li>
+                    <li> NUMERO DE HILOS: Hasta 8 hilos por procesador.Apple Silicon (M1, M1 Pro, M1 Max): Hasta 10
+                        hilos por procesador.</li>
+                    <li> TIPO:DDR3 DDR4 SDRAM (Intel) y LPDDR4X (Apple Silicon).</li>
+                    <li> CAPACIDAD:64 GB (Intel) y 64 GB (Apple Silicon)</li>
+                    <li> FRECUENCIA (VELOCIDAD):2666 MHz (Intel) y 4266 MHz (Apple Silicon)2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Nuevos chips M1 Pro y M1 Max</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Universal Control
+                        * Atajos (Shortcuts)</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m21.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="macos 13">
+                <h3 class=" mx-auto w-max"> MACOS13</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): MACOS 13</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2022.</li>
+                    <li> PROCESADOR:Intel y Apple Silicon (M1, M1 Pro, M1 Max, M1 Ultra, M2)</li>
+                    <li> VELOCIDAD: Varía según el modelo</li>
+                    <li>ARQUITECTURA:Intel x86-64 y ARM64 (Apple Silicon)</li>
+                    <li> NUMERO DE HILOS:Hasta 8 hilos por procesador.
+                        Apple Silicon (M1, M1 Pro, M1 Max, M1 Ultra, M2): Hasta 12 hilos por procesador.</li>
+                    <li> TIPO:DDR4 SDRAM (Intel) y LPDDR4X (Apple Silicon).</li>
+                    <li> CAPACIDAD:Hasta 128 GB (Apple Silicon)</li>
+                    <li> FRECUENCIA (VELOCIDAD):Varía según el modelo</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Introducción de nuevos chips Apple Silicon</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Stage Manager
+                        * Mejoras en Mail, Safari y Mensajes</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m22.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="macos 14">
+                <h3 class=" mx-auto w-max"> MACOS 14</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): MacOS 14 </li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:2023.</li>
+                    <li> PROCESADOR:Intel y Apple Silicon (M1, M1 Pro, M1 Max, M1 Ultra, M2, M2 Pro, M2 Max)</li>
+                    <li> VELOCIDAD: Varía según el modelo</li>
+                    <li>ARQUITECTURA:Intel x86-64 y ARM64 (Apple Silicon)</li>
+                    <li> NUMERO DE HILOS: Hasta 8 hilos por procesador.
+                        Apple Silicon (M1, M1 Pro, M1 Max, M1 Ultra, M2, M2 Pro, M2 Max): Hasta 12 hilos por procesador.
+                    </li>
+                    <li> TIPO:DDR4 SDRAM (Intel) y LPDDR5 (Apple Silicon).</li>
+                    <li> CAPACIDAD:Hasta 128 GB (Apple Silicon)</li>
+                    <li> FRECUENCIA (VELOCIDAD):Varía según el modelo</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el rendimiento de los nuevos chips Apple Silicon</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>* Mejoras en la gestión de widgets
+                        * Herramientas avanzadas para la productividad y creatividad</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m23.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="apple hidden" id="macos 15">
+                <h3 class=" mx-auto w-max"> MACOS 15</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO): MacOS 15</li>
+                    <li>VERSION KERNEL:XNU</li>
+                    <li>AÑO LANZAMIENTO:Septiembre-Octubre de 2024.</li>
+                    <li> PROCESADOR:Apple Silicon (M2, M2 Pro, M2 Max, M3, etc.)</li>
+                    <li> VELOCIDAD: Varía según el modelo</li>
+                    <li>ARQUITECTURA:ARM64 (Apple Silicon).</li>
+                    <li> NUMERO DE HILOS:Apple Silicon (M2, M2 Pro, M2 Max, M3, etc.): Hasta 16 hilos por procesador..
+                    </li>
+                    <li> TIPO:LPDDR5 (Apple Silicon).</li>
+                    <li> CAPACIDAD:Hasta 128 GB o más</li>
+                    <li> FRECUENCIA (VELOCIDAD):Varía según el modelo</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li> Innovaciones adicionales en los chips Apple Silicon</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Tiene Integración avanzada con la inteligencia artificial</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/m24.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows1">
+                <h3 class=" mx-auto w-max">WINDOWS 1.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):1.0</li>
+                    <li>VERSION KERNEL:1.00</li>
+                    <li>AÑO LANZAMIENTO:1985</li>
+                    <li> PROCESADOR:Intel 8086/8088</li>
+                    <li> VELOCIDAD:4.77 MHz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DRAM.</li>
+                    <li> CAPACIDAD:256 KB</li>
+                    <li> FRECUENCIA (VELOCIDAD):4.77 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>tiene capacidad multitarea
+                        limitada, emplea el uso de ventanas para mostrar información</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*tiene dos unidades de disco
+                        flexible de doble cara o un disco duro</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WH1.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows2">
+                <h3 class=" mx-auto w-max">WINDOWS 2.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):2.0</li>
+                    <li>VERSION KERNEL:2.00</li>
+                    <li>AÑO LANZAMIENTO:1987</li>
+                    <li> PROCESADOR:Intel 8086/8088</li>
+                    <li> VELOCIDAD:6 MHz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:512 KB</li>
+                    <li> FRECUENCIA (VELOCIDAD):4.77 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>capacidad de superponer ventanas, tiene
+                        soporte para aplicaciones de 16 bits, tiene
+                        mejoras en el administrador de programas.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>mejoras en la admonistracion de
+                        memorias</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH2.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows3">
+                <h3 class=" mx-auto w-max">WINDOWS 3.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.0</li>
+                    <li>VERSION KERNEL:3.00</li>
+                    <li>AÑO LANZAMIENTO:1990</li>
+                    <li> PROCESADOR:Intel 80386</li>
+                    <li> VELOCIDAD:12 - 22 MHz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:1 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):6 - 20 MHZ</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>compatible con una amplia gama de
+                        hardware existente, incluyendo
+                        impresoras, módems, y otros dispositivos
+                        periféricos</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Soporte para Red
+                        *Soporte para profundidades de
+                        color de hasta 16.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH3.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows4">
+                <h3 class=" mx-auto w-max">WINDOWS 3.1</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.1</li>
+                    <li>VERSION KERNEL:3.10</li>
+                    <li>AÑO LANZAMIENTO:1992</li>
+                    <li> PROCESADOR:Intel 80386</li>
+                    <li> VELOCIDAD:12 - 33 MHz</li>
+                    <li>ARQUITECTURA:16 bits / 32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:1 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):20 MHZ</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>fue la primera versión de Windows que
+                        se distribuyó en CD-ROM</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>fue la primera versión de Windows que
+                        se distribuyó en CD-ROM </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH4.jpg" class="W-[250px] h-[250px] ml-[15%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows5">
+                <h3 class=" mx-auto w-max">WINDOWS 95</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):4.0</li>
+                    <li>VERSION KERNEL4.00</li>
+                    <li>AÑO LANZAMIENTO:1995</li>
+                    <li> PROCESADOR:Intel 80486</li>
+                    <li> VELOCIDAD:66 MHz</li>
+                    <li>ARQUITECTURA:16 bits / 32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:EDO DRAM</li>
+                    <li> CAPACIDAD:4 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):33 MHZ</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>este fue diseñado para aprovechar
+                        completamente los procesadores de 32
+                        bits, lo que permitió un mejor rendimiento
+                        y soporte para aplicaciones más
+                        avanzadas.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>su menu proporcionaba un
+                        acceso centralizado a aplicaciones,
+                        configuraciones y documentos.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH5.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows6">
+                <h3 class=" mx-auto w-max">WINDOWS 98</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):4.1</li>
+                    <li>VERSION KERNEL:4.10</li>
+                    <li>AÑO LANZAMIENTO:1998</li>
+                    <li> PROCESADOR:Intel Pentium</li>
+                    <li> VELOCIDAD:66 MHz</li>
+                    <li>ARQUITECTURA:16 bits / 32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:SDRAM</li>
+                    <li> CAPACIDAD:16 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Windows 98 mejoró la compatibilidad
+                        con aplicaciones y juegos, lo que mejoró
+                        el rendimiento y la calidad gráfica de los
+                        juegos y aplicaciones multimedia.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Se introdujeron mejoras en la
+                        administración de energía,
+                        facilitando un uso más eficiente de
+                        la energía en laptops y otros
+                        dispositivos portátiles.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH6.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows7">
+                <h3 class=" mx-auto w-max">WINDOWS ME</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):4.9</li>
+                    <li>VERSION KERNEL:4.90</li>
+                    <li>AÑO LANZAMIENTO:2000</li>
+                    <li> PROCESADOR:Intel Pentium II</li>
+                    <li> VELOCIDAD:150 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:SDRAM</li>
+                    <li> CAPACIDAD:32 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Se incluyó un soporte mejorado para
+                        dispositivos multimedia, incluyendo
+                        cámaras digitales, grabadoras de CD y
+                        DVD, y dispositivos de captura de video.
+                        Mejoras en la Gestión de Energía</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>recibió mejoras en la interfaz y la
+                        funcionalidad, incluyendo una
+                        mejor organización de archivos y
+                        carpetas, y nuevas opciones de
+                        visualización.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH7.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows8">
+                <h3 class=" mx-auto w-max">WINDOWS 2000</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.0</li>
+                    <li>VERSION KERNEL:5.00</li>
+                    <li>AÑO LANZAMIENTO:2000</li>
+                    <li> PROCESADOR:Intel Pentium III</li>
+                    <li> VELOCIDAD:233 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:SDRAM</li>
+                    <li> CAPACIDAD:64 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Mayor Capacidad de Memoria, Windows
+                        2000 soportaba hasta 4 GB de RA</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>introdujo un tema visual más
+                        moderno en comparación con
+                        Windows 98</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH8.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows9">
+                <h3 class=" mx-auto w-max">WINDOWS XP</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.1</li>
+                    <li>VERSION KERNEL:NT 5.1</li>
+                    <li>AÑO LANZAMIENTO:2001</li>
+                    <li> PROCESADOR:Intel Pentium III</li>
+                    <li> VELOCIDAD:233 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR SDRAM</li>
+                    <li> CAPACIDAD:128 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>ofreció una compatibilidad mejorada con
+                        nuevos tipos de dispositivos de entrada,
+                        como ratones y teclados multimedia, entre
+                        otros</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>ovedades del software de un pc
+                        que soporta widows vista en
+                        comparacion con los anterires</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH9.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows10">
+                <h3 class=" mx-auto w-max">WINDOWS VISTA</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.0</li>
+                    <li>VERSION KERNEL:NT 6.0</li>
+                    <li>AÑO LANZAMIENTO:2006</li>
+                    <li> PROCESADOR:Intel Pentium IV</li>
+                    <li> VELOCIDAD:800 mhz</li>
+                    <li>ARQUITECTURA:32 / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR SDRAM</li>
+                    <li> CAPACIDAD:512 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>ofreció soporte mejorado para tarjetas de
+                        sonido y video avanzadas, tambien se
+                        incluyó nuevos metodos y criterios de
+                        seguridad y copia de seguridad que
+                        requerían hardware más avanzado</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>barra de tareas se rediseñó con
+                        una apariencia más moderna,
+                        incorporando una nueva forma de
+                        mostrar iconos y ventanas abiertas</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH10.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows11">
+                <h3 class=" mx-auto w-max">WINDOWS 7</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.1</li>
+                    <li>VERSION KERNEL:NT 6.1</li>
+                    <li>AÑO LANZAMIENTO:2009</li>
+                    <li> PROCESADOR:Intel Pentium IV</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:32 / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR2,SDRAM</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>incluyó soporte para pantallas táctiles y
+                        tablet PCs, permitiendo una interacción
+                        más intuitiva con el sistema operativo</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>La funcionalidad de búsqueda se
+                        mejoró para ofrecer resultados
+                        más rápidos y precisos. *La
+                        funcionalidad de actualización del
+                        sistema se decidio simplificar para
+                        ofrecer una gestión más eficiente
+                        de las actualizaciones del sistema
+                        operativo.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH11.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows12">
+                <h3 class=" mx-auto w-max">WINDOWS 8</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.2</li>
+                    <li>VERSION KERNEL:NT 6.2</li>
+                    <li>AÑO LANZAMIENTO:2012</li>
+                    <li> PROCESADOR:Intel Core i3</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:32 / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR2,DDR3 SDRAM</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):533 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>introdujo una interfaz de usuario basada
+                        en mosaicos diseñada para pantallas
+                        táctiles</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>se creo una nueva pantalla de
+                        inicio con un diseño basado en
+                        mosaicos en lugar del menú de
+                        inicio que e maneja
+                        tradicionalmente</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH12.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows13">
+                <h3 class=" mx-auto w-max">WINDOWS 8.1</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.3</li>
+                    <li>VERSION KERNEL:NT 6.3</li>
+                    <li>AÑO LANZAMIENTO:2013</li>
+                    <li> PROCESADOR:Intel Core i3</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:32 / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR2,DDR3 SDRAM</li>
+                    <li> CAPACIDAD:1 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):533 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>mejoró el soporte para pantallas de alta
+                        resolución, incluyendo resoluciones más
+                        allá de Full HD</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>La pantalla de Inicio se volvió
+                        más personalizable, para que los
+                        usuarios ajusten el tamaño y el
+                        diseño de los mosaicos, y puedan
+                        elegir entre diferentes fondos y
+                        colores.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH13.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows14">
+                <h3 class=" mx-auto w-max">WINDOWS 10</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):10.0</li>
+                    <li>VERSION KERNEL:NT 10.0</li>
+                    <li>AÑO LANZAMIENTO:2015</li>
+                    <li> PROCESADOR:Intel Core i3</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:32 / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR2,DDR3 SDRAM</li>
+                    <li> CAPACIDAD:2 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):800 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>fue diseñado para aprovechar las últimas
+                        generaciones de procesadores 
+                        *mejoró la
+                        conectividad de red en general</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>se integra en Windows 10 el
+                        asistente virtual de Microsoft para
+                        brindar asistencia por voz, realizar
+                        búsquedas, establecer
+                        recordatorios y ayudar con la
+                        gestión de tareas.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH14.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="windows hidden" id="windows15">
+                <h3 class=" mx-auto w-max">WINDOWS 11</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):10.0</li>
+                    <li>VERSION KERNEL:NT 10.0</li>
+                    <li>AÑO LANZAMIENTO:2021</li>
+                    <li> PROCESADOR:Intel Core i5 octava generacion o superires</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:2</li>
+                    <li> TIPO:DDR4,SDRAM</li>
+                    <li> CAPACIDAD:4 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Este sistema operativo está diseñado para
+                        sacar el jugode las tecnologías avanzadas
+                        de administración de energía y
+                        rendimiento en procesadores modernos</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>presenta un diseño centrado en la
+                        barra de tareas y el menú de inicio,
+                        facilita la comunicación por chat,
+                        voz y video con amigos y familia
+                        sin necesidad de abrir una
+                        aplicación separada.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/MH15.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer1">
+                <h3 class=" mx-auto w-max">WINDOWS NT SERVER 3.1 </h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.1</li>
+                    <li>VERSION KERNEL:NT 3.1</li>
+                    <li>AÑO LANZAMIENTO:1993</li>
+                    <li> PROCESADOR:Intel 386 </li>
+                    <li> VELOCIDAD:25 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:EDO RAM</li>
+                    <li> CAPACIDAD:16 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte de hardware, incluyendo ratones y
+                        impresoras.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Introdujo íconos de programa mejorados y capacidades de manejo de
+                        fuentes TrueType. *Mejor soporte para multitarea cooperativa.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS1.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer2">
+                <h3 class=" mx-auto w-max">WINDOWS NT SERVER 3.5 </h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.5</li>
+                    <li>VERSION KERNEL:NT 3.5</li>
+                    <li>AÑO LANZAMIENTO:1994</li>
+                    <li> PROCESADOR:Intel 486</li>
+                    <li> VELOCIDAD:33 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:EDO RAM</li>
+                    <li> CAPACIDAD:32 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Incluía soporte para hardware específico de servidores, como adaptadores de red y dispositivos de almacenamiento avanzados.
+                    </li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mayor compatibilidad con aplicaciones existentes de Windows y DOS. *Interfaz gráfica similar a Windows 3.x, pero con características de administración mejoradas.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS2.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer3">
+                <h3 class=" mx-auto w-max">WINDOWS NT SERVER 3.51</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.51</li>
+                    <li>VERSION KERNEL:NT 3.51</li>
+                    <li>AÑO LANZAMIENTO:1995</li>
+                    <li> PROCESADOR:Intel 486</li>
+                    <li> VELOCIDAD:33 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:EDO RAM</li>
+                    <li> CAPACIDAD:32 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):100 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mayor compatibilidad con hardware específico de servidores, como controladores RAID y dispositivos de almacenamiento avanzados.
+                    </li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Mejoras en NTFS, incluyendo mayor rendimiento y seguridad. 
+                        *Optimización del rendimiento para redes más grandes y complejas.
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS3.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer4">
+                <h3 class=" mx-auto w-max">WINDOWS NT SERVER 4.0 </h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):4.0</li>
+                    <li>VERSION KERNEL:NT 4.0</li>
+                    <li>AÑO LANZAMIENTO:1996</li>
+                    <li> PROCESADOR:Intel Pentium </li>
+                    <li> VELOCIDAD:90 MHz </li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:EDO RAM</li>
+                    <li> CAPACIDAD:64 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Continuó y mejoró el soporte para múltiples procesadores, lo que permitió un mejor rendimiento en servidores multiprocesador.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Introducción de servicios de directorio que permiten una mejor administración y organización de los recursos de la red,servidor web incluido para facilitar la creación y gestión de sitios web y servicios en red, mejor rendimiento y compatibilidad con aplicaciones de 32-bit.
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS4.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <div class="server hidden" id="WindowsServer5">
+                <h3 class=" mx-auto w-max">WINDOWS 2000 SERVER</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.0</li>
+                    <li>VERSION KERNEL:NT 5.0</li>
+                    <li>AÑO LANZAMIENTO:2000</li>
+                    <li> PROCESADOR:Intel Pentium II</li>
+                    <li> VELOCIDAD:133 MHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:SDRAM</li>
+                    <li> CAPACIDAD:256 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):200 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte mejorado para servidores multiprocesador, permitiendo un mejor, mejoras en la compatibilidad con dispositivos modernos de almacenamiento y redes</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Introducción de un sistema de directorio basado en LDAP que facilita la administración de usuarios y recursos, permite agrupar recursos de varios servidores en un sistema de archivos unificado./li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS5.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer6">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2003</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.2</li>
+                    <li>VERSION KERNEL:NT 5.2</li>
+                    <li>AÑO LANZAMIENTO:2003</li>
+                    <li> PROCESADOR:Intel Pentium III</li>
+                    <li> VELOCIDAD:550 MHz</li>
+                    <li>ARQUITECTURA:32 bits / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR</li>
+                    <li> CAPACIDAD:512 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Soporte mejorado para tecnologías de almacenamiento avanzadas como SAN y NAS, incluye soporte para IPv6 y otras tecnologías</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Nuevas funcionalidades y mejoras en la escalabilidad y administración. *Permite crear copias de seguridad y restaurar versiones anteriores de archivos</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS6.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer7">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2003 R2</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.2</li>
+                    <li>VERSION KERNEL:NT 5.2</li>
+                    <li>AÑO LANZAMIENTO:2005</li>
+                    <li> PROCESADOR:Intel Pentium III</li>
+                    <li> VELOCIDAD:550 MHz</li>
+                    <li>ARQUITECTURA:32 bits / 64 bits</li>
+                    <li> NUMERO DE HILOS:1</li>
+                    <li> TIPO:DDR SDRAM</li>
+                    <li> CAPACIDAD:512 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejor soporte y rendimiento para procesadores de 64-bit, incluye mejores capacidades de gestión y compatibilidad con SAN y NAS</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Permite la implementación de una federación de identidades para compartir el acceso con partners de confianza, versión ligera de Active Directory que puede ejecutarse como un servicio y no requiere un dominio.
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS7.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer8">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2008</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.0</li>
+                    <li>VERSION KERNEL:NT 6.0</li>
+                    <li>AÑO LANZAMIENTO:2008</li>
+                    <li> PROCESADOR:Intel Itanium 2</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:2 o más</li>
+                    <li> TIPO:DDR2/DDR3 SDRAM</li>
+                    <li> CAPACIDAD:512 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en la compatibilidad con procesadores multicore y avanzados.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Opción de instalación minimalista que reduce la superficie de ataque y las necesidades de mantenimiento, plataforma de virtualización que permite crear y gestionar máquinas virtuales.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS8.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer9">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2008 R2</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.1</li>
+                    <li>VERSION KERNEL:NT 6.1</li>
+                    <li>AÑO LANZAMIENTO:2009</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:2 o más</li>
+                    <li> TIPO:DDR2/DDR3 SDRAM</li>
+                    <li> CAPACIDAD:512 MB</li>
+                    <li> FRECUENCIA (VELOCIDAD):400 MHZ</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en la escalabilidad y rendimiento con soporte para una mayor cantidad de núcleos y procesadores, mejoras en la compatibilidad con nuevos dispositivos de almacenamiento y redes</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Nuevas funcionalidades como la opción de RODC (Read-Only Domain Controller) y mejoras en la gestión de grupos, mejora en la instalación mínima de Windows Server con menos componentes y mayor seguridad.
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS9.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer10">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2012</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.2</li>
+                    <li>VERSION KERNEL:NT 6.2</li>
+                    <li>AÑO LANZAMIENTO:2012</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1.4 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:2 o más</li>
+                    <li> TIPO:DDR3</li>
+                    <li> CAPACIDAD:4 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):800 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejor compatibilidad con procesadores multinúcleo y nuevas
+                        tecnologías de almacenamient</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Nueva herramienta de administración centralizada para gestionar múltiples servidores y roles, mejora en la plataforma de virtualización con características como el soporte para máquinas virtuales de hasta 1 TB de RAM.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS10.jpg" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer11">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2012 R2</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.3</li>
+                    <li>VERSION KERNEL:NT 6.3</li>
+                    <li>AÑO LANZAMIENTO:2013</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1.4 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:2 o más</li>
+                    <li> TIPO:DDR3</li>
+                    <li> CAPACIDAD:2 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):800 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Compatibilidad mejorada con nuevas tecnologías emergentes en redes y almacenamiento.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Nuevas funcionalidades para la administración de servidores y roles,
+                        incluyendo mejoras en la interfaz y la capacidad de gestionar servidores remotos. </li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS11.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer12">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2016</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):10.0</li>
+                    <li>VERSION KERNEL:NT 10.0</li>
+                    <li>AÑO LANZAMIENTO:2016</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1.4 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:2 o más</li>
+                    <li> TIPO:DDR4</li>
+                    <li> CAPACIDAD:8 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejor soporte para nuevos procesadores, almacenamiento y
+                        tecnologías de red, compatibilidad mejorada con las últimas tecnologías emergentes en almacenamiento y redes.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Permite crear clústeres de almacenamiento altamente disponible y escalables utilizando discos locales.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS12.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer13">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2019</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):10.0</li>
+                    <li>VERSION KERNEL:NT 10.0</li>
+                    <li>AÑO LANZAMIENTO:2018</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1.4 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:4</li>
+                    <li> TIPO:DDR4</li>
+                    <li> CAPACIDAD:8 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Optimización del rendimiento y la administración de entornos virtualizados, incluyendo soporte para la virtualización anidada y mejoras en Hyper-V.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejoras en la administración de almacenamiento y la creación de clústeres de almacenamiento altamente disponibles</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS13.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="server hidden" id="WindowsServer14">
+                <h3 class=" mx-auto w-max">WINDOWS SERVER 2022</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):10.0</li>
+                    <li>VERSION KERNEL:NT 10.0</li>
+                    <li>AÑO LANZAMIENTO:2021</li>
+                    <li> PROCESADOR:Intel Xeon</li>
+                    <li> VELOCIDAD:1.4 GHz</li>
+                    <li>ARQUITECTURA:64 bits</li>
+                    <li> NUMERO DE HILOS:8</li>
+                    <li> TIPO:DDR4</li>
+                    <li> CAPACIDAD:16 GB</li>
+                    <li> FRECUENCIA (VELOCIDAD):2133 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Nuevas capacidades en Hyper-V para una mayor eficiencia y rendimiento, incluyendo soporte para máquinas virtuales protegidas y capacidades avanzadas de administración./li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejoras en la integración con Kubernetes, facilitando la implementación y administración de aplicaciones basadas en contenedores, mejoras en la migración de datos y configuraciones de servidores antiguos a nuevos.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/WS14.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S1">
+                <h3 class=" mx-auto w-max">MS-DOS 1.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):MS-DOS 1.0</li>
+                    <li>VERSION KERNEL:1.0</li>
+                    <li>AÑO LANZAMIENTO:1981</li>
+                    <li> PROCESADOR:Intel 8088</li>
+                    <li> VELOCIDAD:4.77 MHz</li>
+                    <li>ARQUITECTURA:8 bites</li>
+                    <li> NUMERO DE HILOS:Solo podía manejar un hilo de ejecución a la vez</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:64 KB</li>
+                    <li> FRECUENCIA (VELOCIDAD):4.77 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>La introducción de la IBM PC, fue una de las primeras computadoras en utilizar este sistema operativo. </li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Consta con la capacidad para ejecutar programas y aplicaciones a través de comandos específicos, lo que permitía a los usuarios realizar diversas tareas como copiar archivos, administrar directorios, entre otras funciones.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image1.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S2">
+                <h3 class=" mx-auto w-max">MS-DOS 2.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):MS-DOS 2.0</li>
+                    <li>VERSION KERNEL:2.0</li>
+                    <li>AÑO LANZAMIENTO:1983</li>
+                    <li> PROCESADOR:Intel 8088/8086</li>
+                    <li> VELOCIDAD:4.77 MHz</li>
+                    <li>ARQUITECTURA:8 bites</li>
+                    <li> NUMERO DE HILOS:Solo podía manejar un hilo de ejecución a la vez</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:640 KB</li>
+                    <li> FRECUENCIA (VELOCIDAD):4.77 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Consta de un soporte para discos duros más grandes y unidades de disco flexible de alta densidad. </li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Tiene mayor capacidad de personalización a través del archivo CONFIG.SYS, se impelemtaron mejoras en la gestión de archivos y directorios, incluyendo la capacidad de crear subdirectorios.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image2.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S3">
+                <h3 class=" mx-auto w-max">MS-DOS 3.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):MS-DOS 3.0</li>
+                    <li>VERSION KERNEL:3.0</li>
+                    <li>AÑO LANZAMIENTO:1984</li>
+                    <li> PROCESADOR:Intel 8088/8086</li>
+                    <li> VELOCIDAD:4.77 MHz</li>
+                    <li>ARQUITECTURA:8 bites</li>
+                    <li> NUMERO DE HILOS:Solo podía manejar un hilo de ejecución a la vez</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:256 KB</li>
+                    <li> FRECUENCIA (VELOCIDAD):4.77 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Soporte para discos duros más grandes, lo que permitía a los usuarios almacenar y gestionar una mayor cantidad de datos en sus computadoras.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Añadieron nuevas utilidades de sistema, como la capacidad de asignar letras de unidad a particiones específicas del disco duro y la posibilidad de cargar controladores de dispositivo en una ubicación específica en la memoria.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image3.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S4">
+                <h3 class=" mx-auto w-max">MS-DOS 3.1</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.10</li>
+                    <li>VERSION KERNEL:3.10</li>
+                    <li>AÑO LANZAMIENTO:1985</li>
+                    <li> PROCESADOR:Intel 8088</li>
+                    <li> VELOCIDAD:4.77 Mhz</li>
+                    <li>ARQUITECTURA:8 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:256 Kb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte de hardware y discos.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejoras en la administración de discos y compatibilidad de hardware.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image4.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S5">
+                <h3 class=" mx-auto w-max">MS-DOS 3.2</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.20</li>
+                    <li>VERSION KERNEL:3.20</li>
+                    <li>AÑO LANZAMIENTO:1986</li>
+                    <li> PROCESADOR:Intel 8088</li>
+                    <li> VELOCIDAD:4.77 Mhz</li>
+                    <li>ARQUITECTURA:8 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:256 Kb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en la administración de discos y compatibilidad de hardware.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejoras en el soporte de redes y herramientas de administración.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image5.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S6">
+                <h3 class=" mx-auto w-max">MS-DOS 3.3</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):3.3</li>
+                    <li>VERSION KERNEL:3.30</li>
+                    <li>AÑO LANZAMIENTO:1988</li>
+                    <li> PROCESADOR:Intel 8088</li>
+                    <li> VELOCIDAD:4.77 Mhz</li>
+                    <li>ARQUITECTURA:8 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:256 Kb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoras en el soporte de redes y herramientas de administración.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Introducción de la gestión de memoria extendida.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image6.png" class="W-[250px] h-[250px] ml-[20%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S7">
+                <h3 class=" mx-auto w-max">MS-DOS 4.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):4.0</li>
+                    <li>VERSION KERNEL:4.0</li>
+                    <li>AÑO LANZAMIENTO:1988</li>
+                    <li> PROCESADOR:Intel 80286</li>
+                    <li> VELOCIDAD:6 - 8 Mhz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:640 Kb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte para procesadores 80286 y 80386, mayor memoria.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Inclusión de editores de texto y mejoras en la interfaz de línea de comandos.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image7.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S8">
+                <h3 class=" mx-auto w-max">MS-DOS 5.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):5.x</li>
+                    <li>VERSION KERNEL:5.0</li>
+                    <li>AÑO LANZAMIENTO:1991</li>
+                    <li> PROCESADOR:Intel 80386</li>
+                    <li> VELOCIDAD:12 - 33 Mhz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:1 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Mejoró el soporte para discos duros de mayor capacidad, permitiendo particiones más grandes que las versiones anteriores.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Mejoro una interfaz grafica para la administración de archivos y programas, haciendo que el sistema fuera más accesible para los usuarios menos técnicos.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image8.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S9">
+                <h3 class=" mx-auto w-max">MS-DOS 6.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.x</li>
+                    <li>VERSION KERNEL:6.0</li>
+                    <li>AÑO LANZAMIENTO:1993</li>
+                    <li> PROCESADOR:Intel 80386</li>
+                    <li> VELOCIDAD:12 - 66 Mhz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:1 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Introducción del procesador Intel Pentium, ofreciendo un rendimiento significativamente mejorado con arquitectura superscalar y soporte para operaciones en paralelo. *Los discos duros continuaron aumentando en capacidad, con unidades que superaban los 1 GB.
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*MS-DOS 6.0 introdujo herramientas de administración de discos avanzadas, como el "Disk Defragmenter" para optimizar el rendimiento del disco duro, inclusión de herramientas de protección de archivos como "ScanDisk", para detectar y reparar errores en los discos duros.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image9.jpeg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S10">
+                <h3 class=" mx-auto w-max">MS-DOS 6.20</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):6.20      </li>
+                    <li>VERSION KERNEL:6.20</li>
+                    <li>AÑO LANZAMIENTO: 1994</li>
+                    <li> PROCESADOR:Intel 80386</li>
+                    <li> VELOCIDAD:12 - 66 Mhz</li>
+                    <li>ARQUITECTURA:16 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:1 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):12 - 66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>*Aumento de la capacidad de los discos duros a más de 1 GB, con unidades de varios gigabytes volviéndose comunes. *Seguimiento con la SVGA (Super VGA) y la aparición de tarjetas gráficas más avanzadas que soportaban resoluciones más altas y más colores.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>*Incorporación de nuevas herramientas y mejoras en la administración del sistema, como actualizaciones en el "Disk Defragmenter".*Se realizaron mejoras adicionales en la compatibilidad y administración de redes locales.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image10.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S11">
+                <h3 class=" mx-auto w-max">MS-DOS 7.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):7.x</li>
+                    <li>VERSION KERNEL:7.0</li>
+                    <li>AÑO LANZAMIENTO:1995</li>
+                    <li> PROCESADOR:Intel 80486</li>
+                    <li> VELOCIDAD:25 Mhz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:DRAM</li>
+                    <li> CAPACIDAD:4 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):25 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Sigue con la continuación del uso de los procesadores Intel Pentium, que ofrecían un rendimiento mejorado y capacidades avanzadas en comparación con los procesadores anteriores. </li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>MS-DOS 7.0 mantuvo la herramienta "DriveSpace" optimizada para proporcionar una compresión de disco más eficiente y confiable, mejoras continuas en la compatibilidad y soporte para redes locales, facilitando la integración con diversos tipos de redes y configuraciones.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image11.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S12">
+                <h3 class=" mx-auto w-max">MS-DOS 8.0</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):8.x         </li>
+                    <li>VERSION KERNEL:8.0</li>
+                    <li>AÑO LANZAMIENTO:2000</li>
+                    <li> PROCESADOR:Intel Pentium</li>
+                    <li> VELOCIDAD:86 Mhz</li>
+                    <li>ARQUITECTURA:32 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:SDRAM</li>
+                    <li> CAPACIDAD:4 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):66 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Los discos duros continuaron aumentando en capacidad, con unidades que alcanzaban los 20 GB y más. Mejora en la velocidad de transferencia con *Tiene ayor soporte para resoluciones superiores (hasta 1600x1200) y profundidades de color más altas.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Incluyó MS-DOS 8.0 como parte de su sistema, con mejoras en la compatibilidad y soporte para hardware moderno. *Tiene integración avanzada para conexiones de red, incluyendo mejoras en los protocolos de red y soporte para diversas configuraciones.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image12.png" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------->
+            <div class="dos hidden" id="D.O.S13">
+                <h3 class=" mx-auto w-max">MS-DOS MOBILE</h3>
+                <br>
+                <p>
+                <ul class="custom-bullets">
+                    <li>VERSION(SO):1.0</li>
+                    <li>VERSION KERNEL:1.0</li>
+                    <li>AÑO LANZAMIENTO:2002</li>
+                    <li> PROCESADOR:ARM</li>
+                    <li> VELOCIDAD:50 Mhz</li>
+                    <li>ARQUITECTURA:ARM / 16 bits</li>
+                    <li> NUMERO DE HILOS:1 hilo</li>
+                    <li> TIPO:SDRAM/li>
+                    <li> CAPACIDAD:1 Mb</li>
+                    <li> FRECUENCIA (VELOCIDAD):50 MHz</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL HARDWARE</li>
+                    <li>Soporte para hardware móvil, menor uso de recursos.</li>
+                    <br>
+                    <li class="font-bold">NOVEDADES DEL SOFTWARE</li>
+                    <li>Adaptación para entornos móviles, herramientas específicas para dispositivos móviles.</li>
+                </ul>
+                </p>
+                <br>
+                <br>
+                <div>
+                    <img src="images/image13.jpg" class="W-[250px] h-[250px] ml-[10%]">
+                </div>
+            </div>
+        </div><!----div importante-->
+        <!-------------------------------------------------------------------------------->
+    </section>
+    <!-------------------------------------------------------------------------------->
+    <div class="footer w-[100%] h-[100px] justify-center">
+        <div class="text-[#b1b1b1] pt-4 flex justify-center text-[10px]">
+            <h1 class="">Angie Dahiana Rios Quintero</h1>
+        </div>
+        <div class="text-[#b1b1b1] pt-2 flex justify-center text-[10px]">
+            <h1 class="">© All rights reserved 2024
+        </div>
+        </h1>
+    </div>
+    </div>
+
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function () {
+    var sidebar = document.getElementById('sidebar');
+    var center = document.querySelector('.center');
+
+    if (sidebar.classList.contains('hidden')) {
+        sidebar.classList.remove('hidden');
+        center.style.width = '80%';
+    } else {
+        sidebar.classList.add('hidden');
+        center.style.width = '100%';
+    }
+});
+
+document.getElementById('one').addEventListener('change', function () {
+    // Ocultar toda la información de Apple, Windows y DOS
+    document.querySelectorAll('.apple').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.windows').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.server').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.dos').forEach(div => div.classList.add('hidden'));
+
+    // Mostrar el div seleccionado de Apple
+    const selectedDiv = document.getElementById(this.value);
+    if (selectedDiv) {
+        selectedDiv.classList.remove('hidden');
+    }
+
+    // Reiniciar los selectores de Windows, Server y DOS
+    document.getElementById('two').selectedIndex = 0;
+    document.getElementById('three').selectedIndex = 0;
+    document.getElementById('four').selectedIndex = 0;
+});
+
+document.getElementById('two').addEventListener('change', function () {
+    // Ocultar toda la información de Apple, Windows y DOS
+    document.querySelectorAll('.apple').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.windows').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.server').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.dos').forEach(div => div.classList.add('hidden'));
+
+    // Mostrar el div seleccionado de Windows
+    const selectedDiv = document.getElementById(this.value);
+    if (selectedDiv) {
+        selectedDiv.classList.remove('hidden');
+    }
+
+    // Reiniciar los selectores de Apple, Server y DOS
+    document.getElementById('one').selectedIndex = 0;
+    document.getElementById('three').selectedIndex = 0;
+    document.getElementById('four').selectedIndex = 0;
+});
+
+document.getElementById('three').addEventListener('change', function () {
+    // Ocultar toda la información de Apple, Windows y DOS
+    document.querySelectorAll('.apple').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.windows').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.server').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.dos').forEach(div => div.classList.add('hidden'));
+
+    // Mostrar el div seleccionado de Windows Server
+    const selectedDiv = document.getElementById(this.value);
+    if (selectedDiv) {
+        selectedDiv.classList.remove('hidden');
+    }
+
+    // Reiniciar los selectores de Apple, Windows y DOS
+    document.getElementById('one').selectedIndex = 0;
+    document.getElementById('two').selectedIndex = 0;
+    document.getElementById('four').selectedIndex = 0;
+});
+
+document.getElementById('four').addEventListener('change', function () {
+    // Ocultar toda la información de Apple, Windows y Windows Server
+    document.querySelectorAll('.apple').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.windows').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.server').forEach(div => div.classList.add('hidden'));
+    document.querySelectorAll('.dos').forEach(div => div.classList.add('hidden'));
+
+    // Mostrar el div seleccionado de DOS
+    const selectedDiv = document.getElementById(this.value);
+    if (selectedDiv) {
+        selectedDiv.classList.remove('hidden');
+    }
+
+    // Reiniciar los selectores de Apple, Windows y Windows Server
+    document.getElementById('one').selectedIndex = 0;
+    document.getElementById('two').selectedIndex = 0;
+    document.getElementById('three').selectedIndex = 0;
+});
+    </script>    
+</body>
+</html>
